@@ -2,13 +2,19 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 40%
+    left: -25%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
+    top: 18%
+    right: -4%
+
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
     top: 51%
-    right: 30%
+    right: -12%
 
 
 @keyframes float1
@@ -34,4 +40,102 @@ figcaption
 .BG03
   background-color: #B5CCAD
 
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      background-color: #DBF5FF
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      h5.t2
+        color: $black
+        display: block
+        background-image: url('../assets/curso/temas/ico-up.svg')
+        background-size: 7% 100%
+        background-repeat: no-repeat
+        padding-left: 1.8rem
+      h5.t1
+        display: none
+        
+      @media (max-width:767px)  
+        p
+          font-size: 0.85em
+        h5.t2
+          background-size: 5.5% 100%
+
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: #DBF5FF
+  h5.t2
+      display: none
+  h5.t1
+    display: block
+    color: $black
+    cursor: pointer
+    background-image: url('../assets/curso/temas/ico-down.svg')
+    background-size: 8% 100%
+    background-repeat: no-repeat
+    padding-left: 1.8rem
+
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
+
+.crd_hover_txt .crd_hover_txt--body
+  padding: 1.5rem 0.8rem !important
+
+// configuración para 3 tarjetas
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -82%
+    @media (min-width: $bp-min-xxl)
+      bottom: -89%
+    @media (max-width: $bp-max-xl)
+      bottom: -90%
+    @media (max-width: $bp-max-lg)
+      bottom: -89%
+    @media (max-width: $bp-max-md)
+      bottom: -89%
+    @media (max-width: $bp-max-sm)
+      bottom: -89%
+    @media (max-width: $bp-max-xs)
+      bottom: -87%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -30%
+      @media (min-width: $bp-min-xxl)
+        bottom: -32%
+      @media (max-width: $bp-max-xl)
+        bottom: -47%
+      @media (max-width: $bp-max-lg)
+        bottom: -40%
+      @media (max-width: $bp-max-md)
+        bottom: -40%
+      @media (max-width: $bp-max-sm)
+        bottom: -40%
+      @media (max-width: $bp-max-xs)
+        bottom: -21%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
  

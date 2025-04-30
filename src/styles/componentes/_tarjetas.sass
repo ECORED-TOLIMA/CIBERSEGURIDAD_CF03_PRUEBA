@@ -20,6 +20,12 @@
   &--azul
     background-color: $color-sistema-e
 
+  &--BGC01
+    background-color: $BGC01
+
+  &--BGC02
+    background-color: $BGC02
+
   &--boton
     border-radius: 20px
     background-color: $color-sistema-h
@@ -300,3 +306,240 @@
       display: none
     i:last-child
       display: block
+
+//// Tarjetas --------------------------------------
+
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+.img200
+  width: 200px
+.img250
+  width: 250px
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-image: url('../assets/curso/temas/BG03.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)  
+      background-image: url('../assets/curso/temas/BG04.png')
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      .bottomCircle
+        &::before
+          background-color: #EFB499
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+//-.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #09614D
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #FFE9DF
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #FEF7EB !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+//- tarjetas cambio de color HOVER
+.bg
+  &-c1
+    background-color: #E3FBD1
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px
+    transition: all 0.5s ease
+    height: 240px
+    @media screen and (max-width: $bp-max-xl)
+      p.text-desc
+        font-size: 0.9em
+    @media screen and (max-width: $bp-max-lg)
+      height: 310px
+      p.text-desc
+        font-size: 0.9em
+    @media screen and (max-width: $bp-max-md)
+      height: auto
+      p.text-desc
+        font-size: 0.9em
+  &-c1:hover
+    background-color: #DFD0FB
+    transition: all 0.5s ease
+  &-c2
+    background-color: #0F398D
+    border-radius: 15px
+    transition: all 0.5s ease
+  &-c3
+    background-color: #F0B62A
+    border-top-left-radius: 15px
+    border-top-right-radius: 15px
+    height: 100px
+    @media (max-width: $bp-max-lg)
+      height: 120px
+    @media (max-width: $bp-max-md)
+      height: 100px
+  &-c4
+    background-color: #F1EBDD
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px
+    height: 290px
+
+// Tarjetas
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta--BG02
+  background-image: url("../assets/curso/temas/BG02.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta--BG03
+  background-image: url("../assets/curso/temas/BG03.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG04
+  background-image: url("../assets/curso/temas/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG05
+  background-image: url("../assets/curso/temas/BG05.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG06
+  background-image: url("../assets/curso/temas/BG06.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG07
+  background-image: url("../assets/curso/temas/BG07.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG08
+  background-image: url("../assets/curso/temas/BG08.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.color-hover
+  background-color: #E6EBF3
+  transition: background-color .4s ease-in-out
+  &:hover
+    background-color: #E6EBF3
+
+
+//- modelo tarjeta nuevo
+.tarjeta-box
+  border-radius: 8px
+  overflow: hidden
+  background-color: #DBF5FF
+  height: 100%
+
+.tarjeta-header
+  display: flex
+  align-items: center
+  background-color: #DFD0FB
+  padding: 0rem
+  font-weight: bold
+
+.circle
+  color: $white
+  width: 40px
+  height: 40px
+  background-color: #6018EC
+  border-radius: 8%
+  display: flex
+  align-items: center
+  justify-content: center
+  font-weight: bold
+  margin-right: 0.5rem
+
+.title
+  font-size: 1rem
+
+.tarjeta-body
+  padding: 1rem
+  background-color: #DBF5FF
+  p
+    margin-bottom: 0.75rem

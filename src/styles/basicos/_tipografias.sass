@@ -176,6 +176,31 @@
   &.color-acento-botones
     border-left-color: $color-acento-botones
 
+.titulo
+  background-color: #DFD0FB
+  color: black
+  padding: 8px 16px
+  border-radius: 16px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  font-weight: 700
+  font-size: 1rem
+  line-height: 1.4
+
+.titulo img
+  width: 40px
+  height: 40px
+  margin-right: 12px
+
+.titulo-1 
+  background-color: #6018EC
+  color: white
+  padding: 4px 10px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+
 .etiqueta
   padding: 2px 6px 5px
   margin-right: 5px
@@ -209,6 +234,8 @@
     background-color: lighten($color-acento-botones, 35%)
     &:before
       background-color: $color-acento-botones
+  &.C01
+    background-color: #FFE5DF
 
 .cajon-b
   position: relative
@@ -322,3 +349,6 @@
     li
       > i:first-of-type
         color: $color-acento-contenido
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
