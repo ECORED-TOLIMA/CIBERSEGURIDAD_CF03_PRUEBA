@@ -67,7 +67,7 @@
                   .title Plan de respuesta a incidentes
                 .tarjeta-body.px-4
                   p Establece las acciones que se deben tomar ante vulneraciones o ciberataques.
-                  p <b>Ejemplo 1:</b> una empresa de software define un protocolo que, ante un ataque de ransomware, requiere desconectar los sistemas afectados, alertar al equipo de seguridad y restaurar desde copias de seguridad.
+                  p <b>Ejemplo 1:</b> una empresa de <em>software</em> define un protocolo que, ante un ataque de <em>ransomware</em>, requiere desconectar los sistemas afectados, alertar al equipo de seguridad y restaurar desde copias de seguridad.
                   p.mb-0 <b>Ejemplo 2:</b> un hospital activa un protocolo específico ante accesos no autorizados a registros médicos, que incluye la revocación de credenciales comprometidas y una auditoría para evaluar el alcance del incidente.                  
 
     separador
@@ -85,7 +85,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema3/img03.png', alt='Imagen decorativa')
                 .col-lg-10.col-12.mb-0.order-lg-2.order-2.mb-lg-0
-                  p.mb-0 Un paso fundamental en esta administración es la evaluación de riesgos, que permite identificar los activos valiosos, las amenazas potenciales y las vulnerabilidades existentes. Este análisis facilita la priorización de controles y la asignación eficiente de recursos. Con base en ello, se definen normas y procedimientos específicos para la implementación de controles técnicos (como cifrado, cortafuegos o firewalls) y controles organizacionales (roles, funciones y responsabilidades).
+                  p.mb-0 Un paso fundamental en esta administración es la evaluación de riesgos, que permite identificar los activos valiosos, las amenazas potenciales y las vulnerabilidades existentes. Este análisis facilita la priorización de controles y la asignación eficiente de recursos. Con base en ello, se definen normas y procedimientos específicos para la implementación de controles técnicos (como cifrado, cortafuegos o <em>firewalls</em>) y controles organizacionales (roles, funciones y responsabilidades).
 
           .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3
             figure
@@ -154,7 +154,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/img10.png", alt="alt").img100.m-auto
           h4.text-center Planes de respuesta a incidentes
-          p.mb-0 Definen las acciones específicas que deben tomarse ante la detección de un incidente de seguridad, como el protocolo de restauración tras un ataque de ransomware o el procedimiento de respuesta ante un acceso no autorizado.
+          p.mb-0 Definen las acciones específicas que deben tomarse ante la detección de un incidente de seguridad, como el protocolo de restauración tras un ataque de <em>ransomware</em> o el procedimiento de respuesta ante un acceso no autorizado.
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")

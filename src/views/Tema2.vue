@@ -177,8 +177,8 @@
           .row.justify-content-center.mb-3
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img12.svg' alt='AvatarTop')
-          h4.text-center Antivirus y antimalware
-          p Son programas que detectan, bloquean y eliminan software malicioso, como virus, troyanos, spyware o ransomware. Algunas soluciones modernas, como Bitdefender o Kaspersky, integran motores de análisis en tiempo real y escaneo basado en inteligencia artificial para prevenir amenazas emergentes.
+          h4.text-center Antivirus y <em>antimalware</em>
+          p Son programas que detectan, bloquean y eliminan <em>software</em> malicioso, como virus, troyanos, <em>spyware</em> o <em>ransomware</em>. Algunas soluciones modernas, como Bitdefender o Kaspersky, integran motores de análisis en tiempo real y escaneo basado en inteligencia artificial para prevenir amenazas emergentes.
 
         .tarjeta.tarjeta--BG07.p-4
           .row.justify-content-center.mb-3
@@ -205,8 +205,8 @@
           .row.justify-content-center.mb-3
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img16.svg' alt='AvatarTop')
-          h4.text-center Firewalls
-          p Actúan como una barrera entre una red segura y otra no confiable, filtrando el tráfico entrante y saliente. Pueden ser de hardware o software, y son esenciales para bloquear accesos no autorizados.
+          h4.text-center <em>Firewalls</em>
+          p Actúan como una barrera entre una red segura y otra no confiable, filtrando el tráfico entrante y saliente. Pueden ser de <em>hardware</em> o <em>software</em>, y son esenciales para bloquear accesos no autorizados.
 
         .tarjeta.tarjeta--BG07.p-4
           .row.justify-content-center.mb-3
@@ -215,7 +215,7 @@
           h4.text-center Sistemas de detección y prevención de intrusos (IDS/IPS)
           p Estas herramientas monitorean el tráfico de red en busca de patrones sospechosos. Si se detecta una amenaza, pueden generar alertas (IDS) o actuar directamente para bloquear el ataque (IPS).
 
-    p.mb-0(data-aos="fade-down") El uso combinado de estas herramientas, junto con prácticas seguras como la actualización constante del software y la formación en ciberseguridad, permite mitigar de manera efectiva los riesgos asociados a las amenazas digitales actuales.
+    p.mb-0(data-aos="fade-down") El uso combinado de estas herramientas, junto con prácticas seguras como la actualización constante del <em>software</em> y la formación en ciberseguridad, permite mitigar de manera efectiva los riesgos asociados a las amenazas digitales actuales.
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -244,9 +244,9 @@
                 .col-12.mb-4.mb-md-0
                   p.mb-0 Muchas aplicaciones solicitan acceso a funciones innecesarias como micrófono, cámara o geolocalización. Es importante revisar estos permisos para evitar que se recopile o venda información sin consentimiento.
 
-              .row(numero="D" titulo="Actualizar frecuentemente el software y los sistemas operativos")
+              .row(numero="D" titulo="Actualizar frecuentemente el <em>software</em> y los sistemas operativos")
                 .col-12.mb-4.mb-md-0
-                  p.mb-0 Las actualizaciones corrigen vulnerabilidades críticas. Ignorarlas deja los dispositivos expuestos a ataques como ransomware, spyware o brechas de seguridad.
+                  p.mb-0 Las actualizaciones corrigen vulnerabilidades críticas. Ignorarlas deja los dispositivos expuestos a ataques como <em>ransomware</em>, <em>spyware</em> o brechas de seguridad.
 
               .row(numero="E" titulo="Evitar redes Wi-Fi públicas sin protección")
                 .col-12.mb-4.mb-md-0
@@ -273,7 +273,7 @@
               p.mb-4 <b>F) Mantener los sistemas actualizados:</b> instalar parches de seguridad para prevenir ataques por vulnerabilidades conocidas.
               p.mb-4 <b>G) Aplicar controles de acceso:</b> definir niveles de privilegio y permisos diferenciados por funciones y áreas.
               p.mb-4 <b>H) Monitorear la red:</b> usar herramientas de análisis de tráfico, detección de intrusiones y alertas para reaccionar en tiempo real ante amenazas.
-              p.mb-4 <b>I) Capacitar a los usuarios:</b> sensibilizar sobre fraudes comunes como phishing, ransomware o ingeniería social. La educación continua es clave.
+              p.mb-4 <b>I) Capacitar a los usuarios:</b> sensibilizar sobre fraudes comunes como <em>phishing</em>, <em>ransomware</em> o ingeniería social. La educación continua es clave.
               p.mb-4 <b>J) Cifrar la información:</b> todo dato confidencial (archivos, correos, bases de datos) debe estar cifrado para evitar accesos indebidos incluso si se pierde el dispositivo.
           .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3.px-0
             figure
@@ -304,17 +304,17 @@
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
-              h4 Caso 3. Phishing y robo de credenciales
+              h4 Caso 3. <em>Phishing</em> y robo de credenciales
               p Laura, una emprendedora, recibe un correo que simula provenir de su proveedor de pagos. Ingresa sus datos en un enlace falso, lo que resulta en el robo de sus credenciales y movimientos no autorizados en su cuenta bancaria.
-              p <b>Análisis:</b> este caso presenta una técnica común de ciberataque, el phishing. Resalta la necesidad de verificar los remitentes, evitar ingresar datos en enlaces no verificados, y contar con protección adicional como la autenticación multifactor. La educación en ciberseguridad es clave para prevenir estos incidentes.
+              p <b>Análisis:</b> este caso presenta una técnica común de ciberataque, el <em>phishing</em>. Resalta la necesidad de verificar los remitentes, evitar ingresar datos en enlaces no verificados, y contar con protección adicional como la autenticación multifactor. La educación en ciberseguridad es clave para prevenir estos incidentes.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema2/img20.jpg', alt='Imagen decorativa')
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
-              h4 Caso 4. Ransomware en el sector salud
-              p Una enfermera en un hospital en Bogotá accede a un enlace malicioso desde su correo. Horas después, los sistemas hospitalarios se bloquean con un mensaje de ransomware solicitando un rescate en criptomonedas. Las operaciones son suspendidas y se impone una multa por violación de la normativa de protección de datos.
+              h4 Caso 4. <em>Ransomware</em> en el sector salud
+              p Una enfermera en un hospital en Bogotá accede a un enlace malicioso desde su correo. Horas después, los sistemas hospitalarios se bloquean con un mensaje de <em>ransomware</em> solicitando un rescate en criptomonedas. Las operaciones son suspendidas y se impone una multa por violación de la normativa de protección de datos.
               p <b>Análisis:</b> el caso evidencia la vulnerabilidad de infraestructuras críticas como la salud. La capacitación del personal, los filtros de seguridad en correos y las copias de respaldo son esenciales. Además, demuestra cómo una acción individual puede comprometer todo un sistema institucional.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
@@ -322,8 +322,8 @@
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
-              h4 Caso 5. Software sin actualizar en entidades públicas
-              p Un funcionario en Cali conecta su portátil sin actualizar a la red interna municipal. Hackers aprovechan una vulnerabilidad conocida para acceder a bases de datos con información de dos millones de ciudadanos, que luego es vendida en la dark web.
+              h4 Caso 5. <em>Software</em> sin actualizar en entidades públicas
+              p Un funcionario en Cali conecta su portátil sin actualizar a la red interna municipal. Hackers aprovechan una vulnerabilidad conocida para acceder a bases de datos con información de dos millones de ciudadanos, que luego es vendida en la <em>dark</em> <em>web</em>.
               p <b>Análisis:</b> este incidente subraya la importancia de mantener actualizados los sistemas. Las actualizaciones y parches de seguridad corrigen errores críticos. El descuido en este aspecto puede generar consecuencias graves como robo de identidad, fraudes y pérdida de credibilidad institucional.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure

@@ -327,7 +327,7 @@ export default {
         {
           id: 14,
           texto:
-            'El phishing solo se realiza a través de correos electrónicos falsos.',
+            'El <em>phishing</em> solo se realiza a través de correos electrónicos falsos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -350,7 +350,7 @@ export default {
         {
           id: 15,
           texto:
-            'El protocolo HTTPS garantiza que un sitio web sea legítimo y no malicioso.',
+            'El protocolo HTTPS garantiza que un sitio <em>web</em> sea legítimo y no malicioso.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

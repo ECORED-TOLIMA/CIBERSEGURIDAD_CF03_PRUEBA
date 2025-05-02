@@ -11,13 +11,13 @@
       .col-12
         .row.justify-content-center
           .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
-            p La seguridad en redes constituye un pilar esencial en el entorno digital actual, donde la constante digitalización de la información y la interconexión de dispositivos han incrementado los riesgos para la integridad, confidencialidad y disponibilidad de los datos. Este ámbito va mucho más allá de la instalación de firewalls o antivirus; se trata de un enfoque integral que abarca el diseño arquitectónico de las redes, el control de accesos y la formación de los usuarios.
+            p La seguridad en redes constituye un pilar esencial en el entorno digital actual, donde la constante digitalización de la información y la interconexión de dispositivos han incrementado los riesgos para la integridad, confidencialidad y disponibilidad de los datos. Este ámbito va mucho más allá de la instalación de <em>firewalls</em> o antivirus; se trata de un enfoque integral que abarca el diseño arquitectónico de las redes, el control de accesos y la formación de los usuarios.
             .row
               .col-auto.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/temas/ico01.svg', alt='Imagen decorativa')
               .col.mb-3
-                p.mb-0 El modelo OSI (Open Systems Interconnection), por ejemplo, ofrece una estructura lógica que permite analizar las vulnerabilidades presentes en cada capa de comunicación. Mientras la capa física requiere mecanismos de control de acceso físico, la capa de aplicación demanda estrategias específicas contra amenazas como malware o ataques de ingeniería social. A su vez, técnicas como la segmentación de redes, el uso de redes privadas virtuales (VPN) y el cifrado de extremo a extremo fortalecen la protección frente a accesos no autorizados e intercepciones
+                p.mb-0 El modelo OSI (Open Systems Interconnection), por ejemplo, ofrece una estructura lógica que permite analizar las vulnerabilidades presentes en cada capa de comunicación. Mientras la capa física requiere mecanismos de control de acceso físico, la capa de aplicación demanda estrategias específicas contra amenazas como <em>malware</em> o ataques de ingeniería social. A su vez, técnicas como la segmentación de redes, el uso de redes privadas virtuales (VPN) y el cifrado de extremo a extremo fortalecen la protección frente a accesos no autorizados e intercepciones
 
           .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
             figure
@@ -51,11 +51,11 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img04.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En el panorama digital actual, la seguridad en redes representa un pilar esencial para salvaguardar la integridad, confidencialidad y disponibilidad de la información. Las redes actúan como el sistema circulatorio de las organizaciones contemporáneas, facilitando el flujo continuo de datos entre dispositivos, usuarios y sistemas. No obstante, esta conectividad permanente también incrementa la exposición a amenazas cibernéticas, que van desde ataques de ransomware altamente sofisticados hasta intrusiones silenciosas orientadas al robo de información crítica.
+        p.mb-0 En el panorama digital actual, la seguridad en redes representa un pilar esencial para salvaguardar la integridad, confidencialidad y disponibilidad de la información. Las redes actúan como el sistema circulatorio de las organizaciones contemporáneas, facilitando el flujo continuo de datos entre dispositivos, usuarios y sistemas. No obstante, esta conectividad permanente también incrementa la exposición a amenazas cibernéticas, que van desde ataques de <em>ransomware</em> altamente sofisticados hasta intrusiones silenciosas orientadas al robo de información crítica.
         br
         br
       
-    p.mb-5(data-aos="fade-down") La seguridad en redes trasciende el uso de herramientas tecnológicas; se configura como una disciplina estratégica que integra hardware, software, normativas y la formación del recurso humano. Su propósito es establecer un entorno digital resiliente, en el que los datos puedan circular y almacenarse con un nivel mínimo de riesgo, garantizando la protección de las organizaciones y los usuarios.
+    p.mb-5(data-aos="fade-down") La seguridad en redes trasciende el uso de herramientas tecnológicas; se configura como una disciplina estratégica que integra <em>hardware</em>, <em>software</em>, normativas y la formación del recurso humano. Su propósito es establecer un entorno digital resiliente, en el que los datos puedan circular y almacenarse con un nivel mínimo de riesgo, garantizando la protección de las organizaciones y los usuarios.
 
     p.mb-5(data-aos="fade-down") Entre los principios fundamentales que rigen esta área se encuentran:
 
@@ -155,7 +155,7 @@
                 .col-6.col-lg-8
                   img(src="@/assets/curso/temas/tema1/img16.svg", alt="alt").img100.m-auto
               h4.titulo-1 7. Capa de aplicación
-              p.mb-0 Proporciona servicios directamente al usuario final, como correo electrónico o navegación web.
+              p.mb-0 Proporciona servicios directamente al usuario final, como correo electrónico o navegación <em>web</em>.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="flip-up")
       .col-12
@@ -353,13 +353,13 @@
                     img(src='@/assets/curso/temas/tema1/img38.svg', alt='Imagen decorativa')
                 
               h4.text-center Caso 2: el ciberataque a una empresa de energía
-              p.mb-0 En 2015, un sofisticado ataque cibernético dirigido a la red eléctrica de Ucrania dejó a cientos de miles de personas sin electricidad durante varias horas. Los atacantes, presuntamente respaldados por un grupo de hackers rusos, utilizaron técnicas de phishing para obtener credenciales de acceso de los empleados y, finalmente, comprometieron los sistemas de control industrial. Este ataque demostró la vulnerabilidad de las infraestructuras críticas y la importancia de implementar segmentación de redes, monitoreo constante y políticas de control de acceso más estrictas. Además, la rapidez con la que los atacantes se infiltraron destacó la necesidad de mejorar la capacitación en seguridad cibernética y la conciencia de los empleados sobre los riesgos asociados con el phishing y otros vectores de ataque.
+              p.mb-0 En 2015, un sofisticado ataque cibernético dirigido a la red eléctrica de Ucrania dejó a cientos de miles de personas sin electricidad durante varias horas. Los atacantes, presuntamente respaldados por un grupo de hackers rusos, utilizaron técnicas de <em>phishing</em> para obtener credenciales de acceso de los empleados y, finalmente, comprometieron los sistemas de control industrial. Este ataque demostró la vulnerabilidad de las infraestructuras críticas y la importancia de implementar segmentación de redes, monitoreo constante y políticas de control de acceso más estrictas. Además, la rapidez con la que los atacantes se infiltraron destacó la necesidad de mejorar la capacitación en seguridad cibernética y la conciencia de los empleados sobre los riesgos asociados con el <em>phishing</em> y otros vectores de ataque.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="flip-up")
       .col-12
         .row.justify-content-center
           .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
-            p.mb-0 Estos casos enseñan cómo las brechas de seguridad no solo afectan a las organizaciones, sino también a sus usuarios y a la infraestructura crítica. Desde la implementación de conceptos fundamentales como la confidencialidad e integridad de los datos, hasta la adopción de medidas de seguridad avanzadas como firewalls, segmentación de redes y cifrado, cada aspecto de la seguridad en redes es vital para fortalecer las defensas. El modelo OSI proporciona una base teórica para entender en qué capas de comunicación deben aplicarse las medidas de seguridad, mientras que las topologías de red y los controles de seguridad juegan un papel crucial en la prevención de ataques cibernéticos. A medida que las amenazas evolucionan, mantenerse actualizado con las mejores prácticas y estándares de seguridad es esencial para proteger los datos y la privacidad en un mundo cada vez más digitalizado.
+            p.mb-0 Estos casos enseñan cómo las brechas de seguridad no solo afectan a las organizaciones, sino también a sus usuarios y a la infraestructura crítica. Desde la implementación de conceptos fundamentales como la confidencialidad e integridad de los datos, hasta la adopción de medidas de seguridad avanzadas como <em>firewalls</em>, segmentación de redes y cifrado, cada aspecto de la seguridad en redes es vital para fortalecer las defensas. El modelo OSI proporciona una base teórica para entender en qué capas de comunicación deben aplicarse las medidas de seguridad, mientras que las topologías de red y los controles de seguridad juegan un papel crucial en la prevención de ataques cibernéticos. A medida que las amenazas evolucionan, mantenerse actualizado con las mejores prácticas y estándares de seguridad es esencial para proteger los datos y la privacidad en un mundo cada vez más digitalizado.
 
           .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
             figure
@@ -373,7 +373,7 @@
       .col-12
         .row.justify-content-center.align-items-center
           .col-lg-8.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
-            p Las conexiones inalámbricas son una parte integral de la vida digital moderna, ya que permiten que dispositivos como laptops, smartphones y tablets se conecten a la red sin necesidad de cables físicos. Estas redes funcionan a través de un identificador llamado SSID (Service Set Identifier), el cual es visible para los dispositivos cercanos. Aunque es posible configurar un router inalámbrico para que no difunda su SSID, este método no debe considerarse una solución definitiva para proteger la red, ya que los ciberdelincuentes aún pueden detectar la red mediante técnicas de análisis.
+            p Las conexiones inalámbricas son una parte integral de la vida digital moderna, ya que permiten que dispositivos como <em>laptops</em>, <em>smartphones</em> y <em>tablets</em> se conecten a la red sin necesidad de cables físicos. Estas redes funcionan a través de un identificador llamado SSID (Service Set Identifier), el cual es visible para los dispositivos cercanos. Aunque es posible configurar un router inalámbrico para que no difunda su SSID, este método no debe considerarse una solución definitiva para proteger la red, ya que los ciberdelincuentes aún pueden detectar la red mediante técnicas de análisis.
             .tarjeta.tarjeta--BGC02.p-3
               .row.justify-content-center
                 .col-auto.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
@@ -390,7 +390,7 @@
       .col-12
         .row.justify-content-center.align-items-center
           .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
-            p Sin embargo, es importante tener en cuenta que incluso con WPA2 o WPA3 activado, las redes inalámbricas pueden seguir siendo vulnerables a ciertos ataques, como el ataque de diccionario o el ataque de fuerza bruta. Por ello, es recomendable implementar otras medidas complementarias, como el uso de redes privadas virtuales (VPN) para proteger la privacidad de las comunicaciones y asegurarse de que los dispositivos conectados a la red estén adecuadamente protegidos con software antivirus y firewalls.
+            p Sin embargo, es importante tener en cuenta que incluso con WPA2 o WPA3 activado, las redes inalámbricas pueden seguir siendo vulnerables a ciertos ataques, como el ataque de diccionario o el ataque de fuerza bruta. Por ello, es recomendable implementar otras medidas complementarias, como el uso de redes privadas virtuales (VPN) para proteger la privacidad de las comunicaciones y asegurarse de que los dispositivos conectados a la red estén adecuadamente protegidos con <em>software</em> antivirus y <b>firewalls</b>.
             .row.justify-content-center
               .col-auto.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
                 figure

@@ -209,7 +209,7 @@ export default {
         'proceso de codificar datos para proteger su confidencialidad durante la transmisión o almacenamiento.',
     },
     {
-      termino: 'Firewall',
+      termino: '<em>Firewall</em>',
       significado:
         'sistema que filtra el tráfico de red para bloquear accesos no autorizados.',
     },
