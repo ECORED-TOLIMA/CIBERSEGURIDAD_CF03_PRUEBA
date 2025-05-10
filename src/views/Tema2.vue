@@ -42,7 +42,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img02.png', alt='Imagen decorativa')
 
-    p.mb-5(data-aos="fade-down") Como un caso real se encuentra el escándalo de Facebook y Cambridge Analytica, considerado una de las mayores crisis de privacidad de datos en la historia reciente. Este hecho se dio a conocer en 2018, cuando se reveló que la consultora británica Cambridge Analytica accedió de manera indebida a los datos personales de aproximadamente 87 millones de usuarios de Facebook sin su consentimiento.
+    p.mb-5(data-aos="fade-down") Como un caso real, se encuentra el escándalo de Facebook y Cambridge Analytica, considerado una de las mayores crisis de privacidad de datos en la historia reciente. Este hecho se dio a conocer en 2018, cuando se reveló que la consultora británica Cambridge Analytica accedió de manera indebida a los datos personales de aproximadamente 87 millones de usuarios de Facebook sin su consentimiento.
     
     p.mb-4(data-aos="fade-down") ¿Cómo ocurrió la filtración?
 
@@ -227,34 +227,61 @@
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
       h4.mb-0 Desde el rol del usuario final
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-12
-        .row.justify-content-center
-          .col-lg-8.col-12.mb-md-0
-            LineaTiempoD.color-acento-botones.especial
-              .row(numero="A" titulo="Usar contraseñas seguras y diferentes para cada cuenta")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Emplear contraseñas robustas es esencial para evitar accesos no autorizados. El uso de gestores de contraseñas como Bitwarden, LastPass o 1Password facilita la creación, almacenamiento y actualización de contraseñas complejas.
+    //- .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+    //-   .col-12
+    //-     .row.justify-content-center
+    //-       .col-lg-8.col-12.mb-md-0
+    //-         LineaTiempoD.color-acento-botones.especial
+    //-           .row(numero="A" titulo="Usar contraseñas seguras y diferentes para cada cuenta")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Emplear contraseñas robustas es esencial para evitar accesos no autorizados. El uso de gestores de contraseñas como Bitwarden, LastPass o 1Password facilita la creación, almacenamiento y actualización de contraseñas complejas.
               
-              .row(numero="B" titulo="Evitar compartir información sensible en redes sociales")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Publicar ubicaciones en tiempo real, rutinas o datos familiares puede facilitar ataques dirigidos como el robo de identidad, acoso o fraudes. Los ciberdelincuentes suelen analizar redes sociales para responder preguntas de seguridad o suplantar identidades.
+    //-           .row(numero="B" titulo="Evitar compartir información sensible en redes sociales")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Publicar ubicaciones en tiempo real, rutinas o datos familiares puede facilitar ataques dirigidos como el robo de identidad, acoso o fraudes. Los ciberdelincuentes suelen analizar redes sociales para responder preguntas de seguridad o suplantar identidades.
 
-              .row(numero="C" titulo="Revisar los permisos de las aplicaciones antes de instalarlas")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Muchas aplicaciones solicitan acceso a funciones innecesarias como micrófono, cámara o geolocalización. Es importante revisar estos permisos para evitar que se recopile o venda información sin consentimiento.
+    //-           .row(numero="C" titulo="Revisar los permisos de las aplicaciones antes de instalarlas")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Muchas aplicaciones solicitan acceso a funciones innecesarias como micrófono, cámara o geolocalización. Es importante revisar estos permisos para evitar que se recopile o venda información sin consentimiento.
 
-              .row(numero="D" titulo="Actualizar frecuentemente el <em>software</em> y los sistemas operativos")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Las actualizaciones corrigen vulnerabilidades críticas. Ignorarlas deja los dispositivos expuestos a ataques como <em>ransomware</em>, <em>spyware</em> o brechas de seguridad.
+    //-           .row(numero="D" titulo="Actualizar frecuentemente el <em>software</em> y los sistemas operativos")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Las actualizaciones corrigen vulnerabilidades críticas. Ignorarlas deja los dispositivos expuestos a ataques como <em>ransomware</em>, <em>spyware</em> o brechas de seguridad.
 
-              .row(numero="E" titulo="Evitar redes Wi-Fi públicas sin protección")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Estas redes pueden ser interceptadas por atacantes. El uso de VPN (Red Privada Virtual) es recomendable para cifrar la conexión y proteger la privacidad.
+    //-           .row(numero="E" titulo="Evitar redes Wi-Fi públicas sin protección")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Estas redes pueden ser interceptadas por atacantes. El uso de VPN (Red Privada Virtual) es recomendable para cifrar la conexión y proteger la privacidad.
 
-          .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/tema2/img18.jpg', alt='Imagen decorativa')
+    //-       .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema2/img18.jpg', alt='Imagen decorativa')
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-lg-8.col-12.mb-md-0
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--BGC03")
+          .row(titulo="Usar contraseñas seguras y diferentes para cada cuenta")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Emplear contraseñas robustas es esencial para evitar accesos no autorizados. El uso de gestores de contraseñas como Bitwarden, LastPass o 1Password facilita la creación, almacenamiento y actualización de contraseñas complejas.
+            
+          .row(titulo="Evitar compartir información sensible en redes sociales")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Publicar ubicaciones en tiempo real, rutinas o datos familiares puede facilitar ataques dirigidos como el robo de identidad, acoso o fraudes. Los ciberdelincuentes suelen analizar redes sociales para responder preguntas de seguridad o suplantar identidades.
+            
+          .row(titulo="Revisar los permisos de las aplicaciones antes de instalarlas")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Muchas aplicaciones solicitan acceso a funciones innecesarias como micrófono, cámara o geolocalización. Es importante revisar estos permisos para evitar que se recopile o venda información sin consentimiento.
+            
+          .row(titulo="Actualizar frecuentemente el <em>software</em> y los sistemas operativos")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Las actualizaciones corrigen vulnerabilidades críticas. Ignorarlas deja los dispositivos expuestos a ataques como <em>ransomware</em>, <em>spyware</em> o brechas de seguridad.
+            
+          .row(titulo="Evitar redes Wi-Fi públicas sin protección")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Estas redes pueden ser interceptadas por atacantes. El uso de VPN (Red Privada Virtual) es recomendable para cifrar la conexión y proteger la privacidad.
+            
+      .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema2/img18.jpg', alt='Imagen decorativa')
 
     .titulo.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/temas/ico.svg', alt='Imagen decorativa')
@@ -263,19 +290,51 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-12
         .row.justify-content-center.align-items-center.tarjeta.tarjeta--BG06
-          .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3.px-4
+          .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.p-4
             .row.justify-content-center
-              p.mb-4 <b>A) Evaluar los riesgos:</b> conocer qué activos deben protegerse ayuda a asignar recursos y justificar las inversiones en ciberseguridad.
-              p.mb-4 <b>B) Establecer políticas de seguridad:</b> incluir roles claros, normas sobre contraseñas, uso de dispositivos, acceso a la información y acciones frente a incidentes.
-              p.mb-4 <b>C) Implementar medidas de seguridad físicas:</b> controlar el acceso a servidores, redes y espacios críticos, así como contar con sistemas de extinción de incendios adecuados.
-              p.mb-4 <b>D) Controlar los recursos humanos:</b> verificar antecedentes y establecer protocolos de acceso según el perfil de cada trabajador.
-              p.mb-4 <b>E) Realizar copias de seguridad periódicas:</b> es fundamental automatizar respaldos y probar su restauración con regularidad para evitar la pérdida de datos.
-              p.mb-4 <b>F) Mantener los sistemas actualizados:</b> instalar parches de seguridad para prevenir ataques por vulnerabilidades conocidas.
-              p.mb-4 <b>G) Aplicar controles de acceso:</b> definir niveles de privilegio y permisos diferenciados por funciones y áreas.
-              p.mb-4 <b>H) Monitorear la red:</b> usar herramientas de análisis de tráfico, detección de intrusiones y alertas para reaccionar en tiempo real ante amenazas.
-              p.mb-4 <b>I) Capacitar a los usuarios:</b> sensibilizar sobre fraudes comunes como <em>phishing</em>, <em>ransomware</em> o ingeniería social. La educación continua es clave.
-              p.mb-4 <b>J) Cifrar la información:</b> todo dato confidencial (archivos, correos, bases de datos) debe estar cifrado para evitar accesos indebidos incluso si se pierde el dispositivo.
-          .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3.px-0
+              .col-sm.mb-0.mb-sm-0
+                ol.lista-ol--cuadro
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span A.
+                    p.mb-0 <b>Evaluar los riesgos:</b> conocer qué activos deben protegerse ayuda a asignar recursos y justificar las inversiones en ciberseguridad.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span B.
+                    p.mb-0 <b>Establecer políticas de seguridad:</b> incluir roles claros, normas sobre contraseñas, uso de dispositivos, acceso a la información y acciones frente a incidentes.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span C.
+                    p.mb-0 <b>Implementar medidas de seguridad físicas:</b> controlar el acceso a servidores, redes y espacios críticos, así como contar con sistemas de extinción de incendios adecuados.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span D.
+                    p.mb-0 <b>Controlar los recursos humanos:</b> verificar antecedentes y establecer protocolos de acceso según el perfil de cada trabajador.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span E.
+                    p.mb-0 <b>Realizar copias de seguridad periódicas:</b> es fundamental automatizar respaldos y probar su restauración con regularidad para evitar la pérdida de datos.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span F.
+                    p.mb-0 <b>Mantener los sistemas actualizados:</b> instalar parches de seguridad para prevenir ataques por vulnerabilidades conocidas.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span G.
+                    p.mb-0 <b>Aplicar controles de acceso:</b> definir niveles de privilegio y permisos diferenciados por funciones y áreas.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span H.
+                    p.mb-0 <b>Monitorear la red:</b> usar herramientas de análisis de tráfico, detección de intrusiones y alertas para reaccionar en tiempo real ante amenazas.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span I.
+                    p.mb-0 <b>Capacitar a los usuarios:</b> sensibilizar sobre fraudes comunes como <em>phishing</em>, <em>ransomware</em> o ingeniería social. La educación continua es clave.
+                  li.mb-4 
+                    .lista-ol--cuadro__vineta.v--green
+                      span J.
+                    p.mb-0 <b>Cifrar la información:</b> todo dato confidencial (archivos, correos, bases de datos) debe estar cifrado para evitar accesos indebidos incluso si se pierde el dispositivo.
+          .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3.px-0.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema2/img19.png', alt='Imagen decorativa')  
 
@@ -300,7 +359,7 @@
               p <b>Análisis:</b> este incidente resalta la importancia de implementar controles de acceso adecuados. La falta de segmentación de permisos puede derivar en filtración de información, incluso si el acceso es involuntario. El principio de menor privilegio debe ser una norma básica en la infraestructura TI.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema2/img20.jpg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema2/img21.jpg', alt='Imagen decorativa')
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
@@ -309,7 +368,7 @@
               p <b>Análisis:</b> este caso presenta una técnica común de ciberataque, el <em>phishing</em>. Resalta la necesidad de verificar los remitentes, evitar ingresar datos en enlaces no verificados, y contar con protección adicional como la autenticación multifactor. La educación en ciberseguridad es clave para prevenir estos incidentes.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema2/img20.jpg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema2/img22.jpg', alt='Imagen decorativa')
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
@@ -318,7 +377,7 @@
               p <b>Análisis:</b> el caso evidencia la vulnerabilidad de infraestructuras críticas como la salud. La capacitación del personal, los filtros de seguridad en correos y las copias de respaldo son esenciales. Además, demuestra cómo una acción individual puede comprometer todo un sistema institucional.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema2/img20.jpg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema2/img23.jpg', alt='Imagen decorativa')
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-7.order-lg-1.order-2
@@ -327,7 +386,7 @@
               p <b>Análisis:</b> este incidente subraya la importancia de mantener actualizados los sistemas. Las actualizaciones y parches de seguridad corrigen errores críticos. El descuido en este aspecto puede generar consecuencias graves como robo de identidad, fraudes y pérdida de credibilidad institucional.
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema2/img20.jpg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema2/img24.jpg', alt='Imagen decorativa')
 
 </template>
 

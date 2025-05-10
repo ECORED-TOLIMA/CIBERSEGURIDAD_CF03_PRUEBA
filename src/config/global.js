@@ -4,7 +4,7 @@ export default {
       'Seguridad en redes, protección de datos y políticas en ciberseguridad.',
     descripcionCurso:
       'En un entorno digital en constante evolución, garantizar la seguridad de la información es esencial. Este componente formativo aborda los fundamentos de la ciberseguridad, la protección de redes, la gestión de datos personales y las políticas organizacionales, incorporando estándares como ISO 27001 y herramientas prácticas para mitigar riesgos y enfrentar amenazas cibernéticas.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

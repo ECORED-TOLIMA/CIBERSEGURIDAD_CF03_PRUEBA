@@ -44,7 +44,7 @@
               .tarjeta-box
                 .tarjeta-header
                   .circle B)
-                  .title Normas de seguridad
+                  .title Procedimientos de seguridad
                 .tarjeta-body.px-4
                   p Son descripciones detalladas sobre cómo aplicar las normas establecidas.
                   p <b>Ejemplo 1:</b> una empresa define un procedimiento de gestión de contraseñas en el que los empleados deben cambiarlas cada 90 días y utilizar combinaciones alfanuméricas seguras.
@@ -74,7 +74,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1 Administración de la Política de Seguridad de la Información
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+    .row.justify-content-center.align-items-center.mb-3(data-aos="flip-up")
       .col-12
         .row.justify-content-center.align-items-center
           .col-lg-8.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0.mb-3
@@ -90,6 +90,22 @@
           .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img04.jpg', alt='Imagen decorativa')
+
+    .row.justify-content-center.align-items-center.mb-3(data-aos="flip-up")
+      .col-12
+        .row.justify-content-center
+          .col-lg-7.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
+            p La alta dirección cumple un papel clave al aprobar y respaldar la Política de Seguridad de la Información, lo cual demuestra compromiso con la cultura de seguridad y garantiza los recursos necesarios para su aplicación. En paralelo, es esencial establecer programas de capacitación y concienciación para que todo el personal comprenda sus responsabilidades, desde el uso adecuado de contraseñas hasta la notificación de incidentes.
+            .row.justify-content-center
+              .col-auto.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/tema3/img15.svg', alt='Imagen decorativa')
+              .col-lg-10.col-12.mb-3.order-lg-2.order-2.mb-lg-0
+                p La política debe integrar un Plan de Continuidad del Negocio, que defina cómo mantener las operaciones ante eventos críticos, y un Plan de Respuesta a Incidentes, que establezca las acciones necesarias frente a brechas de seguridad. Ambos planes deben ser probados de forma periódica mediante simulacros y ejercicios controlados.
+
+          .col-lg-5.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-12
